@@ -1,38 +1,167 @@
-.App {
-  text-align: center;
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+  background-color: rgb(16 25 14);
+  min-height: 200px;
+  flex: 1 1 0;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  font-size: 20px;
+  padding-top: 20px;
+  position: relative;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.manLogo {
+  height: 32px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.congo {
+  margin-top: 24px;
+  font-weight: bolder;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+}
+.grad-color {
+  background: -webkit-linear-gradient(45deg, #cc00ff, #ff0000 80%);        -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.congo img {
+  height: 24px;
+  margin-left: 8px;
+  width: 24px;
+}
+.content-wrapper {
+  margin-top: 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 20px;
+}
+.giftcard {
+  background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    padding: 20px;
+    align-items: center;
+    margin: 0 20px;
+    width: 80%;
+    position: absolute;
+    align-self: stretch;
+    box-shadow: 1px 4px 19px 0px #e6d4d4;
+    justify-content: center;
+    height: 120px;
+    top: 143px;
+}
+.paytmLogo {
+    height: 20px;
+}
+.giftTitle {
+  /* display: flex; */
+  margin: 0;
+  font-size: 34px;
+  margin-top: 16px;
+  font-style: italic;
+  text-align: center;
+  width: 100%;
+  /* justify-content: center; */
+  font-weight: bolder;
+}
+.card {
+  font-size: 22px;
+}
+.rupee {
+  font-size: 22px;
+}
+.price {
+  font-size: 40px;
+}
+.won-title {
+  display: flex;
+  margin: 41px;
+  text-align: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.title {
+  font-size: 16px;
+}
+.input-wrapper {
+  display: flex;
+  justify-content: center;
+  align-self: stretch;
+}
+.num-input {
+  padding: 1.4rem;
+  outline: none;
+  border: none;
+  background: #f7f4f4;
+  border-radius: 25px;;
+  width: 80%;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.num-input::placeholder{
+  opacity: 0.4;
+}
+.paytm-button {
+  background: #4cb9f5;
+  padding: 20px;
+  border-radius: 25px;
+  box-shadow: 0px 12px 20px -10px #4cb9f5;
+  border: none;
+  outline: none;
   color: white;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
 }
-
-.App-link {
-  color: #61dafb;
+.paytm-button:disabled{
+  background: #e2dcdc;
+  box-shadow: none;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.paytm-button svg {
+  height: 16px;
+  margin-left: 8px;
+}
+.content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.submit-content {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.info-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.info-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.question {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+.answer {
+  font-size: 17px;
+}
+.whatsapp-logo {
+  height: 44px;
+  margin-right: 7px;
+}
+.sub-logo {
+  height: 44px;
+  margin: 0 16px 0 9px;
 }
