@@ -32,12 +32,12 @@ function App() {
   }
 
   useEffect(()=> {
-      if(!isNaN(localStorage.getItem('userNumber'))){
+      if(localStorage.getItem('userNumber')){
         setSubmit(true);
       }
       setIsLoaded(true)
   },[])
-  
+
   return (
     <>
     {
