@@ -3,6 +3,7 @@ import './App.css';
 import {ReactComponent as  Arrow} from './arrow-right.svg'
 import Header from './components/header'
 import Submit from './components/submit'
+import {ReactComponent as Gokwik} from './gokwik.svg'
 function App() {
   const [isValid, setValid] = useState(false);
   const [isSubmit, setSubmit] = useState(false);
@@ -65,6 +66,7 @@ function App() {
               }
                 
             </div>
+            <div className="powered">Powered by <Gokwik/></div>
         </div>
       )
     }
